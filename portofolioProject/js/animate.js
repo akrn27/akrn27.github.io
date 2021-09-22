@@ -1,6 +1,6 @@
 const typedTextSpan = document.querySelector(".animate");
 
-const textArray = ["Developer", "Designer", "Editor"];
+const textArray = ["Web Developer", "Web Designer", "UI/UX Designer"];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000;
