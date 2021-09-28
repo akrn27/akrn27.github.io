@@ -1,0 +1,128 @@
+/* Section Start */
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+  /* about start */
+  #about .btn {
+    width: 40%;
+    padding: 15px 22px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  #about .btn a {
+    text-decoration: none;
+    font-size: 1em;
+  }
+
+  #about .btn:hover {
+    background-color: rgb(27, 27, 27);
+  }
+
+  #about {
+    text-align: center;
+    padding: 50px;
+    margin-top: 40px;
+    background-image: linear-gradient(to right, #000000 , #434343);
+  }
+
+  #about .row p {
+    font-size: 14px;
+  }
+
+  #about h5 {
+    background: linear-gradient(to right, #e03b28 0%, #f5af19 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  #about h5:hover {
+    background: linear-gradient(to left, #e03b28 0%, #f5af19 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* about end */
+
+  /* Service Start */
+  #services .card1 {
+    background-image: url("../img/cardBgUiux.jpg");
+    background-size: cover;
+    /* background-position: center; */
+  }
+
+  #services .card2 {
+    background-image: url("../img/cardBgFrontEnd.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  #services .card3 {
+    background-image: url("../img/cardBgBackend.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  #services p {
+      font-size: 13px;
+  }
+
+  /* Service End */
+
+  /* Get in Touch Section */
+  #linkedin h2 {
+    background: linear-gradient(to right, #e03b28 0%, #f5af19 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 10vw;
+  }
+
+  /* Get in Touch Section end */
+
+  /* portofolio start */
+  .project-area {
+    padding: 4rem 0;
+  }
+
+  .project-area .button-group button {
+    background: transparent;
+    border: none;
+    font: normal 400 16px/130px var(--roboto);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .project-area .grid .our-project>.title h4 {
+    font: normal 700 25px/12px var(--roboto);
+  }
+  /* portofolio end */
+
+  /* global */
+  button:focus,
+  button:active button:hover .btn:active,
+  .btn:active {
+    outline: 0px !important;
+    box-shadow: none !important;
+  }
+
+  /* Skills */
+  #skill {
+    min-height: 600px;
+    width: 100%;
+  }
+
+  #skill img {
+    width: 11%;
+    height: 40%;
+    margin: 10px;
+  }
+
+  #skill img:hover {
+    transform: scale(1.1);
+  }
+  /* End Skills */
+
+
+  /* portofolio end */
