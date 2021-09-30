@@ -28,11 +28,11 @@
 
 <body class="bg-light">
   <!-- Navbar start -->
-  <nav class="navbar sticky-top navbar-light bg-light shadow">
+  <nav class="navbar sticky-top navbar-dark bg-dark shadow">
     <div class="container-lg">
-      <a class="navbar-brand text-dark fw-bold fs-4" href="#">DIKA</a>
+      <a class="navbar-brand text-primary fw-bold fs-4 shadow" href="#">DIKA</a>
       <div class="dropdown">
-        <button class="btn btn-secondary btn-dark px-3" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+        <button class="btn btn-secondary btn-light px-3" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
           aria-expanded="false">
           <i class="bi bi-list"></i>
         </button>
@@ -55,13 +55,13 @@
       <div class="row min-vh-75 align-items-center align-content-center">
         <div class="col-md-6">
           <div class="home-img text-center mt-5">
-            <img src="img/exm0.png" class="rounded-circle mw-100 shadow" alt="porto-image"
-              style="width: 50%; height: 10%; filter: grayscale(100%)" />
+            <img src="img/exm0.png" class="rounded-circle mw-100 shadow-lg" alt="porto-image"
+              style="width: 50%; height: 10%; filter: grayscale(100%);" />
           </div>
         </div>
         <div class="col-md-6 mt-5 mt-md-0 order-md-first">
           <div class="home-text">
-            <p class="text-muted mb-1 mt-1">Hello, I am</p>
+            <p class="text-muted mb-1 mt-1" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Assalamualaikum">السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</p>
 
             <!-- Animate CSS -->
 
@@ -76,10 +76,10 @@
             <a href="https://github.com/Akrn27" target="_blank"><i class="bi bi-github"></i></a>
             <a href="https://akrndev.blogspot.com/" target="_blank"><i class="bi bi-book-fill"></i></a>
             <p class="mt-3 text-muted">
-              I study at Asia e University Malaysia
+              Pontianak, Indonesia
             </p>
-            <a href="https://www.linkedin.com/in/andika-kurnia-alamsyah-bab53b1b4/" target="_blank"
-              class="btn btn-dark px-3 mt-3">Download CV</a>
+            <a href="https://drive.google.com/drive/folders/1lymwVnvjAyIoaVqlXcWrq64zNotuAqF6?usp=sharing" target="_blank"
+              class="btn btn-primary px-3 mt-3">Download CV</a>
           </div>
         </div>
       </div>
@@ -89,22 +89,34 @@
 
   <!-- About start -->
   <div id="about" class="container-fluid bg-dark">
-    <div class="post-heading text-center mt-1">
-      <h5 class="display-4 text-light h5">About Me</h5>
-      <hr class="w-50 mx-auto mb-4 text-light" />
-    </div>
     <div class="row">
-      <div class="col-lg-12 col-md-12 text-secondary">
-        <p class="w-50 mx-auto">
-          I am a university student taking two degrees the first at <span class="text-warning">CCIT FTUI</span> 
-          and the second to continue my undergraduate at <span class="text-warning">Asia E University</span> Malaysia. I am now 20 years old and have a skill in the field of
-          <strong>Front End, Back End, UI UX, Microsoft Office, Adobe Illustrator and 
-          PhotoShop.</strong> You can see the project I am
-          working on in the link below. You can contact me via gmail <strong>akurnia755@gmail.com</strong>
-        </p>
-
-
-        <!-- <a class="btn btn-warning mb-3" href="https://github.com/Akrn27" target="_blank" role="button">Github</a> -->
+      <div class="col-lg-12">
+        <div class="post-heading text-center mt-1">
+          <h5 class="display-4 text-light h5">About Me</h5>
+          <hr class="w-50 mx-auto mb-4 text-light" />
+        </div>
+      </div>
+    </div>
+    
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <!-- <img src="img/aeu.jpg" class="img-fluid"> -->
+        <div class="kontener">
+          <img src="img/aeu.jpg" alt="Avatar" class="image shadow">
+          <div class="overlay">
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 text-secondary mt-5 mt-lg-0">
+          <p class="mx-auto">
+            I am a university student taking two degrees the first at <span class="text-warning">CCIT FTUI</span> 
+            and the second to continue my undergraduate at <span class="text-warning">Asia E University Malaysia</span>. I am now 20 years old and have a skill in the field of
+            <strong>Front End, Back End, UI UX, Microsoft Office, Adobe Illustrator and 
+            PhotoShop.</strong> You can see the project I am
+            working on in the link below. You can contact me via gmail <strong>akurnia755@gmail.com</strong>
+          </p>
+          <!-- <a class="btn btn-warning mb-3" href="https://github.com/Akrn27" target="_blank" role="button">Github</a> -->
       </div>
     </div>
   </div>
@@ -119,12 +131,12 @@
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <div class="section-title text-center">
-            <h2 class="fw-bold mb-5 mt-5">What I Do?</h2>
+            <h2 class="fw-bold mb-1 mb-lg-5 mt-2 mt-lg-5">What I Do?</h2>
           </div>
         </div>
       </div>
       <div class="row text-center">
-        <div class="col-md-6 col-lg-4 text-light">
+        <div class="col-md-12 col-lg-4 mt-5 mt-lg-0 text-light">
           <div class="service-item shadow p-4 rounded card1">
             <div class="icon my-3 fs-2">
               <i class="bi bi-brush"></i>
@@ -140,7 +152,7 @@
             <p>Adobe Photoshop</p>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 text-light">
+        <div class="col-md-12 col-lg-4 mt-5 mt-lg-0 text-light">
           <div class="service-item shadow p-4 rounded card2">
             <div class="icon my-3 fs-2">
               <i class="bi bi-laptop"></i>
@@ -158,7 +170,7 @@
             <p>Git & Github</p>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 text-light">
+        <div class="col-md-12 col-lg-4 mt-5 mt-lg-0 text-light">
           <div class="service-item shadow p-4 rounded card3">
             <div class="icon my-3 fs-2">
               <i class="bi bi-code-slash"></i>
@@ -203,7 +215,7 @@
   <section class="project-area" id="project">
     <div class="container">
       <div class="project-title pb-4">
-        <h1 class="text-uppercase title-h1 text-center">My Recent <span class="text-light bg-dark">Project</span></h1>
+        <h1 class="text-uppercase title-h1 text-center">Recent Project</h1>
         <!-- <h1 class="text-uppercase title-h1">2021</h1> -->
       </div>
 
@@ -214,7 +226,7 @@
         <button type="button" data-filter=".android">Android</button>
       </div>
 
-      <div class="row grid">
+      <div class="row grid text-center text-lg-start">
         <!-- website -->
         <!-- #1 -->
         <div class="col-lg-4 col-md-6 col-sm-12 element-item website">
@@ -280,7 +292,7 @@
   <!-- portofolio end -->
 
   <!-- Footer start -->
-  <div class="card mt-5" id="footer">
+  <div class="card mt-5 bg-dark shadow" id="footer">
     <div class="card-body">
       <blockquote class="blockquote mb-0 text-center">
         <p>

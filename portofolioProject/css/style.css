@@ -1,7 +1,13 @@
 /* Section Start */
 body {
     font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to right, #181818, #434343);
+    color: white;
   }
+
+  
+
+  /* Section End */
 
 
   /* about start */
@@ -22,24 +28,47 @@ body {
   }
 
   #about {
-    text-align: center;
+    text-align: justify;
     padding: 50px;
     margin-top: 40px;
-    background-image: linear-gradient(to right, #000000 , #434343);
+    background-image: linear-gradient(to right, #000000 , #3a3a3a);
   }
 
   #about .row p {
     font-size: 14px;
   }
 
-  #about h5 {
-    background: linear-gradient(to right, #e03b28 0%, #f5af19 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  
+    /* image flag hover */
+  .kontener {
+    position: relative;
+    width: 100%;
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url(../img/malaysia.jpg);
+    background-size: cover;
+  }
+  .kontener:hover .overlay {
+    opacity: 1;
   }
 
-  #about h5:hover {
-    background: linear-gradient(to left, #e03b28 0%, #f5af19 100%);
+
+  #about h5 {
+    background: linear-gradient(to right, #0032A0 10%, #DA291C 100%, #FFFFFF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -79,6 +108,10 @@ body {
     font-size: 10vw;
   }
 
+  #linkedin .btn:hover {
+    background-color: #ca7900;
+  }
+
   /* Get in Touch Section end */
 
   /* portofolio start */
@@ -96,6 +129,14 @@ body {
 
   .project-area .grid .our-project>.title h4 {
     font: normal 700 25px/12px var(--roboto);
+  }
+
+  #project button {
+    color: white;
+  }
+
+  #project button:hover {
+    opacity: 0.5;
   }
   /* portofolio end */
 
