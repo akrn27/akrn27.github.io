@@ -147,6 +147,30 @@ body {
   #project button:hover {
     opacity: 0.5;
   }
+
+  #project img {
+    width: 354px;
+    height: 295px;
+  }
+
+  #project .website .tools span{
+    background-color: #555555;
+    color: #FFFFFF;
+    /* text-align: center; */
+    padding: 5px 12px;
+    border-radius: 20px;
+    margin: 5px 6px 0px 0px;
+    display: inline-block;
+  }
+  #project .uiux .tools span{
+    background-color: #555555;
+    color: #FFFFFF;
+    /* text-align: center; */
+    padding: 5px 12px;
+    border-radius: 20px;
+    margin: 5px 6px 0px 0px;
+    display: inline-block;
+  }
   /* portofolio end */
 
   /* global */
