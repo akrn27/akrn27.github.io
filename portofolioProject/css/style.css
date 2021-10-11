@@ -1,7 +1,8 @@
 /* Section Start */
 body {
     font-family: 'Montserrat', sans-serif;
-    background-image: linear-gradient(to right, #181818, #434343);
+    /* background-image: linear-gradient(to right, #181818, #434343); */
+    background-image: linear-gradient(to top, #181818, #2c2c2c);
     color: white;
   }
 
@@ -12,7 +13,7 @@ body {
   /* Navbar */
   nav .dika {
     font-family: 'Fugaz One', cursive;
-    background: linear-gradient(to right, #e03b28 0%, #f5af19 100%);
+    background: linear-gradient(to right, #5899fa 0%, #3573d1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -26,6 +27,10 @@ body {
     position: relative;
   }
 
+  #home h1 {
+    font-weight: 600;
+  }
+
   #particles-js {
     z-index: -10;
     position: absolute;
@@ -36,13 +41,13 @@ body {
 
   #home .bi {
     padding: 5px;
-    background: linear-gradient(to right, #e03b28 0%, #f5af19 100%);
+    background: linear-gradient(to right, #5899fa 0%, #3573d1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   #home .btn {
-    background: linear-gradient(to right, #e03b28 0%, #f5af19 100%);
+    background: linear-gradient(to right, #5899fa 0%, #3573d1 100%);
     /* -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
   }
@@ -76,7 +81,7 @@ body {
     text-align: justify;
     padding: 50px;
     margin-top: 40px;
-    background-image: linear-gradient(to right, #000000 , #3a3a3a);
+    background-image: linear-gradient(to right, #0c0c0c , #2c2c2c);
   }
 
   #about .row p {
@@ -114,7 +119,7 @@ body {
 
 
   #about h5 {
-    background: linear-gradient(to right, #e03b28 0%, #f5af19 100%);
+    background: linear-gradient(to right, #5899fa 0%, #3573d1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Fugaz One', cursive;
