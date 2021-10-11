@@ -10,6 +10,10 @@ body {
   /* Section End */
 
   /* Navbar */
+  nav .navbar{
+    
+  }
+
   nav .dika {
     font-family: 'Fugaz One', cursive;
     background: linear-gradient(to right, #e03b28 0%, #f5af19 100%);
@@ -114,9 +118,14 @@ body {
 
 
   #about h5 {
-    background: linear-gradient(to right, #0032A0 10%, #DA291C 100%, #FFFFFF 100%);
+    background: linear-gradient(to right, #e03b28 0%, #f5af19 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: 'Fugaz One', cursive;
+  }
+
+  #about p {
+    opacity: 0.5;
   }
 
   /* about end */
@@ -144,6 +153,13 @@ body {
       font-size: 13px;
   }
 
+  #services h2 {
+    background: linear-gradient(to right, #e03b28 0%, #f5af19 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Fugaz One', cursive;
+  }
+
   /* Service End */
 
   /* Get in Touch Section */
@@ -161,6 +177,13 @@ body {
   /* Get in Touch Section end */
 
   /* portofolio start */
+  #project h1 {
+    background: linear-gradient(to right, #e03b28 0%, #f5af19 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Fugaz One', cursive;
+  }
+
   .project-area {
     padding: 4rem 0;
   }
