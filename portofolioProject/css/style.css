@@ -18,6 +18,22 @@ body {
   /* Navbar end */
 
 
+  /* Home */
+  #home .container-lg {
+    position: relative;
+  }
+
+  #particles-js {
+    z-index: -10;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  
+
+  /* Home end */
+
+
   /* about start */
   #about .btn {
     width: 40%;
