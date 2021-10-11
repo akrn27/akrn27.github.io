@@ -256,3 +256,12 @@ body {
 
 
   /* portofolio end */
+
+
+  /* 973 */
+
+@media only screen and (max-width: 973px){
+  #services data-tilt {
+    display: none;
+  }
+}
