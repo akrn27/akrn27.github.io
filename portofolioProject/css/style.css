@@ -12,6 +12,9 @@ body {
   /* Navbar */
   nav .dika {
     font-family: 'Fugaz One', cursive;
+    background: linear-gradient(to right, #e03b28 0%, #f5af19 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
 
@@ -28,6 +31,24 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
+    top: -5px;
+  }
+
+  #home .bi {
+    padding: 5px;
+    background: linear-gradient(to right, #e03b28 0%, #f5af19 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  #home .btn {
+    background: linear-gradient(to right, #e03b28 0%, #f5af19 100%);
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  }
+
+  #home .btn:hover {
+    opacity: 0.9;
   }
   
 
